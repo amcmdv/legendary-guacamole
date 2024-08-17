@@ -136,12 +136,11 @@ The Risk Treatment Plan outlines how each identified risk will be addressed. It 
 
 ## ISMS Framework Overview
 
-
+![IMG_9434](https://github.com/user-attachments/assets/08e209de-db6d-40dd-b060-2cfdff7d52da)
 
 ## Data Lifecycle and Security Controls
 
-
-
+![IMG_9435](https://github.com/user-attachments/assets/1fc15b2f-451e-4589-b433-80ffe13b389b)
 
 ## Risk Assessment Table
 
