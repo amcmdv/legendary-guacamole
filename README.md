@@ -6,8 +6,8 @@ This repository contains the documentation and conceptual models for implementin
 
 ## Contents
 
-- [ISO 27001 Compliance Documentation] : Detailed documentation covering the organisational context, scope of the ISMS, risk assessment, information security objectives, and control implementation. This document also includes conceptual diagrams and risk treatment plans.
-- [Security Concerns and State Diagrams] : Analysis of potential security concerns, state diagrams, and strategies to minimise the attack surface while safeguarding data and enabling collaboration.
+- ISO 27001 Compliance Documentation : Detailed documentation covering the organisational context, scope of the ISMS, risk assessment, information security objectives, and control implementation. This document also includes conceptual diagrams and risk treatment plans.
+- Security Concerns and State Diagrams : Analysis of potential security concerns, state diagrams, and strategies to minimise the attack surface while safeguarding data and enabling collaboration.
 - Conceptual Diagrams : Diagrams illustrating the ISMS framework, data lifecycle, and associated security controls.
 - Risk Assessment and Treatment Tables : Tables that outline identified risks, their likelihood, impact, and the treatment strategies employed to mitigate them.
 
