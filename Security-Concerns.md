@@ -70,4 +70,9 @@ The state diagram illustrates the various states of the AI-generated targeted ad
 | **Performance Tracking** | Served Ads                                                            | - Securely track performance metrics <br> - Anonymise user interaction data <br> - Ensure data integrity                   | To Model Refinement or Error Handling                  |
 | **Error Handling**      | Errors from any state                                                  | - Log errors securely <br> - Alert security teams <br> - Initiate rollback mechanisms                                      | To appropriate states based on error resolution        |
 
+## Current Best Practices
+
+The document is currently under review.
+
+[Security.docx](https://github.com/user-attachments/files/16646544/Security.docx)
 
