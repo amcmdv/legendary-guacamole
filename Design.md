@@ -172,4 +172,3 @@ RawData --> NLPProcessor --> ProcessedData
 ProcessedData --> RecommendationEngine --> AdContent
 AdContent --> AdServer --> User
 AdServer --> RecommendationEngine (feedback loop)
-s
