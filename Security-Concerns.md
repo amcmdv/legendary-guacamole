@@ -58,9 +58,16 @@ The state diagram illustrates the various states of the AI-generated targeted ad
 
 ### **Diagram Overview:**
 
-```plaintext
-[Data Ingestion] --(Secure API/Encryption)--> [Data Processing] --(Anonymisation/Secure Processing)--> [Model Training] --(Secure Environment/Differential Privacy)--> [Ad Content Generation] --(Content Filtering/Validation)--> [Ad Serving] --(Secure Channels/Monitoring)--> [Performance Tracking] --(Anonymisation/Integrity Checks)--> [Model Refinement]
-   |                                                                                                                      |
-   |                                                                                                                      |
-   ----------------------------- [Error Handling] <-------------------------------------------
+# State Diagram Table
+
+| **State**              | **Input**                                                              | **Security Actions**                                                                                                      | **Transition**                                          |
+|------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| **Data Ingestion**      | Mailbox data, Search History, Video Watch History, Music Playlist History | - Data encryption at rest and in transit <br> - Secure API gateways                                                        | To Data Processing or Error Handling                   |
+| **Data Processing**     | Raw Data                                                               | - Apply NLP, Semantic Extraction under secure processing environments <br> - Isolate sensitive data <br> - Anonymise user data | To Data Storage, Model Training, or Error Handling     |
+| **Model Training**      | Processed Data                                                         | - Secure model training environments <br> - Apply differential privacy techniques <br> - Monitor for model poisoning       | To Ad Content Generation or Error Handling             |
+| **Ad Content Generation** | Trained Models                                                        | - Validate ad content generation <br> - Apply content filtering <br> - Ensure compliance with regulations                  | To Ad Serving or Error Handling                        |
+| **Ad Serving**          | Generated Ads                                                          | - Secure ad delivery channels <br> - Apply real-time monitoring for anomalies <br> - Protect against click fraud           | To Performance Tracking or Error Handling              |
+| **Performance Tracking** | Served Ads                                                            | - Securely track performance metrics <br> - Anonymise user interaction data <br> - Ensure data integrity                   | To Model Refinement or Error Handling                  |
+| **Error Handling**      | Errors from any state                                                  | - Log errors securely <br> - Alert security teams <br> - Initiate rollback mechanisms                                      | To appropriate states based on error resolution        |
+
 
