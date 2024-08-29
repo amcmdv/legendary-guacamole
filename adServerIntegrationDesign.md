@@ -8,7 +8,7 @@
 3. [Class Diagrams](#class-diagrams)
    - [Classes](#classes)
    - [Relationships](#relationships)
-   - [Diagram Overview](#diagram-overview)
+
 
 ## Overview
 This document provides a detailed design of the integration process for mailbox, internet search history, video watch history, and music playlist history into an ad server platform. The design includes both Data Flow Diagrams (DFDs) and Class Diagrams to represent the flow of data and the system’s structure.
@@ -162,16 +162,3 @@ The Class Diagram represents the static structure of the system by showing the s
 - **ProcessedData** is used by **RecommendationEngine** to generate **AdContent**.
 - **AdContent** is served by **AdServer** to **User**.
 - **AdServer** collects feedback to refine **RecommendationEngine**.
-
-### Diagram Overview
-
-```plaintext
-User --> RawData
-User --> ProcessedData
-RawData --> NLPProcessor --> ProcessedData
-ProcessedData --> RecommendationEngine --> AdContent
-AdContent --> AdServer --> User
-AdServer --> RecommendationEngine (feedback loop)
-
-
-
