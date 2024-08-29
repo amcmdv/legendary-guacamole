@@ -93,7 +93,7 @@ Risks are evaluated based on their likelihood and potential impact. The followin
 Risks are treated using one of the following strategies:
 
 -  Mitigation : Implementing controls to reduce the risk’s likelihood or impact.
--  Acceptance : Accepting the risk if it falls within the organi sation’s risk tolerance.
+-  Acceptance : Accepting the risk if it falls within the organisation’s risk tolerance.
 -  Avoidance : Changing the process to eliminate the risk entirely.
 -  Transfer : Outsourcing or insuring against the risk.
 
