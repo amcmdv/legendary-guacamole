@@ -99,9 +99,9 @@ Risks are treated using one of the following strategies:
 
 # Information Security Objectives
 
-The information security objectives are aligned with the organi sation’s mission to provide secure, reliable, and compliant AI-driven ad solutions. These objectives include:
+The information security objectives are aligned with the organisation’s mission to provide secure, reliable, and compliant AI-driven ad solutions. These objectives include:
 
-1.  Protect User Data : Ensure all user data is encrypted, anonymi sed, and processed securely.
+1.  Protect User Data : Ensure all user data is encrypted, anonymised, and processed securely.
 2.  Ensure Compliance : Maintain compliance with all relevant data protection regulations and industry standards.
 3.  Enhance System Resilience : Implement robust security measures to prevent and mitigate cyberattacks.
 4.  Promote Security Awareness : Provide regular training and updates to all employees on security best practices.
