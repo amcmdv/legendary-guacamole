@@ -114,7 +114,7 @@ The information security objectives are aligned with the organi sation’s missi
 ISO 27001 Annex A provides a set of controls that can be implemented to address identified risks. Relevant controls for this system include:
 
 -  A.5 Information Security Policies : Define and implement a robust information security policy.
--  A.6 Organi sation of Information Security : Assign roles and responsibilities for security management.
+-  A.6 Organisation of Information Security : Assign roles and responsibilities for security management.
 -  A.8 Asset Management : Ensure all information assets are inventoried and classified based on sensitivity.
 -  A.9 Access Control : Implement role-based access control and multi-factor authentication.
 -  A.10 Cryptography : Use encryption to protect data at rest and in transit.
